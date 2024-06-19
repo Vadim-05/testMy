@@ -5,7 +5,7 @@
         <v-col class="protocols__col" v-for="(project, index) in projects" :key="index">
           <v-card class="protocols__card" :class="{ 'active-card': activeIndex === index }">
             <v-card-title class="protocols__card-title" @click="setActiveTabs(project.data, index)">
-              <NuxtImg class="protocols-item-icon" :src="project.img" />
+              <img class="protocols-item-icon" :src="project.img" />
               {{ project.name }}
             </v-card-title>
           </v-card>

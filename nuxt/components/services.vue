@@ -2,19 +2,19 @@
   <v-card class='project-card'>
     <v-tabs v-model="tab" class='project-tabs' >
       <v-tab class='project-tabs__tab' value="one">
-       <NuxtImg class='project-tabs__icon'  src="/vector3.svg" />
+       <img class='project-tabs__icon'  src="/vector3.svg" />
         Bridges
       </v-tab>
       <v-tab class='project-tabs__tab' value="two">
-        <NuxtImg class='project-tabs__icon' src="/vector2.svg" />
+        <img class='project-tabs__icon' src="/vector2.svg" />
         Swaps
       </v-tab>
       <v-tab class='project-tabs__tab' value="three">
-        <NuxtImg class='project-tabs__icon' src="/vector1.svg" />
+        <img class='project-tabs__icon' src="/vector1.svg" />
         Landings
       </v-tab>
       <v-tab class='project-tabs__tab' value="four">
-        <NuxtImg class='project-tabs__icon' src="/vector.svg" />
+        <img class='project-tabs__icon' src="/vector.svg" />
         Mints
       </v-tab>
     </v-tabs>
@@ -23,22 +23,22 @@
         <v-tabs-window-item value="one">
           <div class="project-items" v-for="(value, index) in myDate.Bridges" :key="index">
             <div>
-              <NuxtImg class='project-items__icon' :src="value.img" />
+              <img class='project-items__icon' :src="value.img" />
             </div>
             <div class="d-flex align-center">
               {{ value.name }}
-              <NuxtImg class='project-items__action-icon' src="/vector24.svg" />
+              <img class='project-items__action-icon' src="/vector24.svg" />
             </div>
           </div>
         </v-tabs-window-item>
         <v-tabs-window-item value="two">
           <div class="project-items"  v-for="(value, index) in myDate.Swaps" :key="index">
             <div>
-              <NuxtImg class='project-items__icon' :src="value.img" />
+              <img class='project-items__icon' :src="value.img" />
             </div>
             <div class="d-flex align-center">
               {{ value.name }}
-              <NuxtImg class='project-items__action-icon' src="/vector24.svg" />
+              <img class='project-items__action-icon' src="/vector24.svg" />
             </div>
           </div>
         </v-tabs-window-item>
@@ -46,22 +46,22 @@
         <v-tabs-window-item value="three">
           <div class="project-items" v-for="(value, index) in myDate.Landings" :key="index">
             <div>
-              <NuxtImg class='project-items__icon' :src="value.img" />
+              <img class='project-items__icon' :src="value.img" />
             </div>
             <div class="d-flex align-center">
               {{ value.name }}
-              <NuxtImg class='project-items__action-icon' src="/vector24.svg" />
+              <img class='project-items__action-icon' src="/vector24.svg" />
             </div>
           </div>
         </v-tabs-window-item>
         <v-tabs-window-item value="four">
           <div class="project-items" v-for="(value, index) in myDate.Mints" :key="index">
             <div>
-              <NuxtImg class='project-items__icon' :src="value.img" />
+              <img class='project-items__icon' :src="value.img" />
             </div>
            <div class="d-flex align-center">
               {{ value.name }}
-              <NuxtImg class='project-items__action-icon' src="/vector24.svg" />
+              <img class='project-items__action-icon' src="/vector24.svg" />
             </div>
           </div>
         </v-tabs-window-item>

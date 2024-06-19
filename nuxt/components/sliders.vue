@@ -4,7 +4,7 @@
       <div>
         <div class="d-flex justify-space-between pb-5">
           <div class="d-flex align-center">
-            <NuxtImg class="sliders-container__icon" src="/vector8.svg" />
+            <img class="sliders-container__icon" src="/vector8.svg" />
             <div class="sliders-container__title">Wallets</div>
           </div>
           <div class="sliders-container__value">{{ walletsSliderValue }}</div>
@@ -20,7 +20,7 @@
       <div class="gbvfdsa">
         <div class="d-flex justify-space-between pb-5">
           <div class="d-flex align-center">
-            <NuxtImg class="sliders-container__icon" src="/vector9.svg" />
+            <img class="sliders-container__icon" src="/vector9.svg" />
             <div class="sliders-container__title">Transactions</div>
           </div>
           <div class="sliders-container__value">{{ transactionsSliderValue }}</div>
@@ -36,7 +36,7 @@
       <div class="gbvfdsa">
         <div class="d-flex justify-space-between pb-5">
           <div class="d-flex align-center">
-            <NuxtImg class="sliders-container__icon" src="/vector10.svg" />
+            <img class="sliders-container__icon" src="/vector10.svg" />
             <div class="sliders-container__title">Services</div>
           </div>
           <div class="sliders-container__value">{{ servicesSliderValue }}</div>
